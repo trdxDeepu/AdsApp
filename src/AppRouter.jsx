@@ -6,8 +6,9 @@ export function AppRouter() {
   return (
     <>
       <BrowserRouter>
+        <Navbar />
         <Routes>
-          <Route path="/" element={<Navbar />} />
+          {/* <Route path="/" element={<Navbar />} /> */}
           <Route path="/auth/register" element={<Register />} />
         </Routes>
       </BrowserRouter>
